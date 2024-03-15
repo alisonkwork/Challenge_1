@@ -1,1 +1,76 @@
-/* Add screen styles below */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+
+:root {
+    --primary-font-family: "Inter", sans-serif;
+    --main-color: #173753;
+    --accent-color: #fff6c5;
+}
+
+a {
+    color: var(--main-color);
+}
+
+body {
+    background-color: #fffffc;
+    font-family: var(--primary-font-family);
+}
+
+header {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+
+}
+
+h1 {
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: .5px;
+    color: var(--main-color);
+    margin: 0px;
+}
+
+h2 {
+    font-family: var(--primary-font-family);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--main-color);
+    margin: 0px;
+}
+
+.furtherLearning {
+    text-align: center;
+    margin: 0 auto;
+    width: 440px;
+    height: 30px;
+    background: url("Arrow.png") no-repeat center left;
+    background-size: 30px;
+}
+
+.sunCard {
+    margin-top: 50px;
+    margin-left: 100px;
+    background: var(--accent-color);
+    width: 280px;
+    height: 396px;
+    border: 6.5px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .25); 
+    text-align: center;
+}
+
+.sunCard h3 {
+    text-align: center;
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--main-color);
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
