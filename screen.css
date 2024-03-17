@@ -40,62 +40,6 @@ h2 {
     padding-top: 5px;
 }
 
-h3 {
-    font-family: var(--primary-font-family);
-    font-weight: 700;
-    font-size: 20px;
-    color: #fff;
-    text-transform: uppercase;
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-h4 {
-    font-family: var(--primary-font-family);
-    font-weight: 700;
-    font-size: 16px;
-    color: var(--accent-color);
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-p {
-    font-family: var(--primary-font-family);
-    font-weight: 600;
-    font-size: 12px;
-    color: #fff;
-    line-height: 16px;
-    margin: 0px;
-}
-
-.sun h3 {
-    font-family: var(--primary-font-family);
-    font-weight: 700;
-    font-size: 40px;
-    color: var(--main-color);
-    text-transform: uppercase;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.sun h4 {
-    font-family: var(--primary-font-family);
-    font-weight: 700;
-    font-size: 22px;
-    color: var(--main-color);
-    margin-top: 8px;
-    margin-bottom: 5px;
-}
-
-.sun p {
-    font-family: var(--primary-font-family);
-    font-weight: 600;
-    font-size: 16px;
-    color: var(--accent-color-2);
-    line-height: 18px;
-    margin: 0px;
-}
-
 .furtherLearning {
     text-align: center;
     margin: 0 auto;
@@ -133,6 +77,62 @@ p {
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, .25); 
     text-align: center;
+}
+
+.planet h3 {
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.planet h4 {
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--accent-color);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.planet p {
+    font-family: var(--primary-font-family);
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    line-height: 16px;
+    margin: 0px;
+}
+
+.sun h3 {
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--main-color);
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sun h4 {
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--main-color);
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.sun p {
+    font-family: var(--primary-font-family);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--accent-color-2);
+    line-height: 18px;
+    margin: 0px;
 }
 
 
