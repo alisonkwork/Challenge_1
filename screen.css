@@ -22,6 +22,25 @@ header {
     padding-bottom: 20px;
 }
 
+.furtherLearning {
+    text-align: center;
+    margin: 0 auto;
+    width: 520px;
+    height: 38px;
+    background: url("Arrow.png") no-repeat center left;
+    background-size: 25px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    color: var(--accent-color-2);
+    font-size: 12px;
+}
+
 h1 {
     font-family: var(--primary-font-family);
     font-weight: 700;
@@ -40,19 +59,10 @@ h2 {
     padding-top: 5px;
 }
 
-.furtherLearning {
-    text-align: center;
-    margin: 0 auto;
-    width: 520px;
-    height: 38px;
-    background: url("Arrow.png") no-repeat center left;
-    background-size: 25px;
-}
-
 .cardContainer {
     display: grid;
     gap: 20px;
-    width: 1200px;
+    width: 1150px;
     margin: 0 auto;
     padding: 30px;
     grid-template-columns: 320px auto auto auto auto;
@@ -122,8 +132,8 @@ h2 {
     font-weight: 700;
     font-size: 22px;
     color: var(--main-color);
-    margin-top: 8px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 8px;
 }
 
 .sun p {
